@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "Aulitas/optimizacion.py",
+      "src": "optimizacion.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "Aulitas/optimizacion.py"
+      "dest": "optimizacion.py"
     }
   ]
 }
